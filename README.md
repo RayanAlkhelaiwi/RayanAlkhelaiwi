@@ -11,10 +11,10 @@ import json, dataclasses as dc
 
 @dc.dataclass
 class Skills:
-    languages  : tuple[str, ...] = ('Python', 'Ruby', 'JavaScript')
-    frameworks : tuple[str, ...] = ('Flask', 'Rails', 'React')
-    databases  : tuple[str, ...] = ('PostgreSQL', 'MySQL', 'Redis')
-    deployment : tuple[str, ...] = ('Celery', 'Kubernetes', 'RabbitMQ')
+    languages  : tuple[str, ...] = ('Ruby', 'Python', 'JavaScript')
+    frameworks : tuple[str, ...] = ('Rails', 'Flask', 'React')
+    databases  : tuple[str, ...] = ('MySQL', 'PostgreSQL', 'Redis')
+    deployment : tuple[str, ...] = ('Kubernetes', 'Celery', 'RabbitMQ')
 
     def jsonify(self) -> str:
         return json.dumps(dc.asdict(self), indent=4)

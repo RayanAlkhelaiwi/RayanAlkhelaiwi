@@ -25,7 +25,11 @@ print(skills.jsonify())
 ```
 </h4>
 
-<a href="https://dev.to/rayan"><img src="./assets/hacktoberfest2019.png" height="60"/></a> 
+<p align="right">
+    <a href="https://dev.to/rayan">
+        <img src="./assets/hacktoberfest2019.png" height="80"/>
+    </a>
+</p>
 
 <!--
 **RayanAlkhelaiwi/RayanAlkhelaiwi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

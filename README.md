@@ -1,4 +1,4 @@
-### Hey there! 👋
+### Hey there! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 
 <!-- Zero width character is used to put extra blank lines before and after code -->
 
@@ -14,7 +14,7 @@ class Skills:
     languages  : tuple[str, ...] = ('Ruby', 'Python', 'JavaScript')
     frameworks : tuple[str, ...] = ('Rails', 'Flask', 'React')
     databases  : tuple[str, ...] = ('MySQL', 'PostgreSQL', 'Redis')
-    deployment : tuple[str, ...] = ('Kubernetes', 'Celery', 'RabbitMQ')
+    deployment : tuple[str, ...] = ('Kubernetes', 'Sidekiq', 'RabbitMQ')
 
     def jsonify(self) -> str:
         return json.dumps(dc.asdict(self), indent=4)

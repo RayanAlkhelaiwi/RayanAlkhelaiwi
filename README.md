@@ -14,7 +14,7 @@ class Skills:
     languages  : tuple[str, ...] = ('Ruby', 'Python', 'JavaScript')
     frameworks : tuple[str, ...] = ('Rails', 'Flask', 'React')
     databases  : tuple[str, ...] = ('MySQL', 'PostgreSQL', 'Redis')
-    deployment : tuple[str, ...] = ('Kubernetes', 'Sidekiq', 'RabbitMQ')
+    deployment : tuple[str, ...] = ('Docker', 'Sidekiq', 'RabbitMQ')
 
     def jsonify(self) -> str:
         return json.dumps(dc.asdict(self), indent=4)

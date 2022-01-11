@@ -1,8 +1,8 @@
-### Hey there! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="24">
+## Hey there! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 
 <!-- Zero width character is used to put extra blank lines before and after code -->
 
-<h4>
+<h3>
     
 ```python
 
@@ -23,7 +23,7 @@ skills = Skills()
 print(skills.jsonify())
 ​
 ```
-</h4>
+</h3>
 
 <p align="right">
     <a href="https://dev.to/rayan">

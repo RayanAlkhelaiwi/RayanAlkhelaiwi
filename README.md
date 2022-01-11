@@ -36,6 +36,9 @@ print(skills.jsonify())
         <a href="https://linkedin.com/in/RayanAlkhelaiwi" target="_blank">
             <img src="https://img.shields.io/badge/RayanAlkhelaiwi-linkedin?style=flat-square&color=0077B5&logoColor=white&logo=linkedin"/>
         </a>
+        <a href="https://poly.work/rayan" target="_blank">
+            <img src="https://img.shields.io/badge/rayan-polywork?style=flat-square&color=582BE8&logoColor=white&logo=polywork"/>
+        </a>
         <a href="mailto:rayan@hey.com" target="_blank">
             <img src="https://img.shields.io/badge/rayan-hey?style=flat-square&color=400B9B&logoColor=white&logo=hey"/>
         </a>
